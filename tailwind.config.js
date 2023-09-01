@@ -20,5 +20,5 @@ module.exports = {
       'slate': '#94a3b8'
     }
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms')],
 }
