@@ -7,6 +7,8 @@ import signature from "./assets/signature.svg";
 import naturalHair from "./assets/naturalHair.svg";
 import softLocs from "./assets/softLocs.svg";
 import weave from "./assets/weave.svg";
+import banner from "./assets/banner.svg";
+
 import Specialties from "./components/Specialties";
 
 
@@ -21,7 +23,7 @@ export default function Page() {
 
       {/* HERO SECTION */}
       <section className="dark:bg-gray-900 pt-24 hero-section">
-        <div className="py-8 mx-3 max-w-screen-xl text-left lg:py-16 lg:px-0">
+        <div className="py-8 mx-3 max-w-screen-xl text-left lg:py-16 lg:px-0 bg-banner bg-no-repeat bg-cover">
           <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
             NATURAL HAIR ARTIST
           </h1>
@@ -33,7 +35,7 @@ export default function Page() {
             <a href="https://noirebeautebyj.as.me/schedule.php" target="_blank">
               <button
                 className=
-                    " bg-noire-gold font-semibold px-8 py-3 mt-2 text-sm rounded-full w-1/3 md:hidden text-black "
+                    " bg-noire-gold-300 font-semibold px-8 py-3 mt-2 text-sm rounded-full w-1/3 md:hidden text-black "
               >
                 Book Now
               </button>
@@ -84,8 +86,8 @@ export default function Page() {
           </div>
 
           <section className="specialty mt-10">
-            <div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36 mt-12">
-              <span class="font-semibold uppercase text-black text-2xl">
+            <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36 mt-12">
+              <span className="font-semibold uppercase text-black text-2xl">
                 SPECIALTIES
               </span>
               <div className="flex flex-wrap flex-col md:flex-row justify-center items-top mt-8  md:align-baseline sm:justify-between gap-1.5">

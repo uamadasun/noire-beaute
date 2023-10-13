@@ -13,7 +13,7 @@ const Footer = () => {
              p-4
              mt-10 footer bg-black"
       >
-        Copyright &copy; 2023 Noire Beaute by J. Developed and Designed by <Link href="https://uchenna.io" target="_blank"><span className="hover:text-noire-gold font-bold">uchenna.io</span>.</Link>
+        Copyright &copy; 2023 Noire Beaute by J. Developed and Designed by <Link href="https://uchenna.io" target="_blank"><span className="hover:text-noire-gold-300 font-bold">uchenna.io</span>.</Link>
       </footer>
     </div>
   );

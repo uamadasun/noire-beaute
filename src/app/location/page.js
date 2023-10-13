@@ -14,19 +14,19 @@ const page = () => {
       </section>
       {/* MAP */}
       
-      <section className=" border-noire-gold border-8  w-full md:w-1/2 hidden md:flex">
+      <section className=" border-noire-gold-300 border-8  w-full md:w-1/2 hidden md:flex">
         <LoadMap />
       </section>
       {/* HOURS */}
       <section className=" w-full md:w-1/4 text-center p-2">
         <h1 className="text-3xl font-bold mb-4">Hours</h1>
         <div className="text-xl leading-8 tracking-wide">
-          <p>MON,TUES & FRI | <span className="text-noire-gold">8:30AM-5PM</span></p>
-          <p>SUN | <span className="text-noire-gold">10AM-4PM</span></p>
-          <p>WED, THURS & SAT | <span className="text-noire-gold">CLOSED</span></p>
+          <p>MON,TUES & FRI | <span className="text-noire-gold-300 font-semibold">8:30AM-5PM</span></p>
+          <p>SUN | <span className="text-noire-gold-300 font-semibold">10AM-4PM</span></p>
+          <p>WED, THURS & SAT | <span className="text-noire-gold-300 font-semibold">CLOSED</span></p>
         </div>
       </section>
-      <section className=" border-noire-gold border-8  w-full md:hidden">
+      <section className=" border-noire-gold-300 border-8  w-full md:hidden">
         <LoadMap />
       </section>
     </div>

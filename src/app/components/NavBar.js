@@ -49,7 +49,7 @@ const NavBar = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className={item.name !== currentPage ? "text-sm font-semibold leading-6 text-white hover:text-noire-gold" : "text-sm font-semibold leading-6 text-noire-gold hover:text-white"}
+                className={item.name !== currentPage ? "text-sm font-semibold leading-6 text-white hover:text-noire-gold-300" : "text-sm font-semibold leading-6 text-noire-gold-300 hover:text-white"}
                 onClick={(e)=> setCurrentPage(e.target.text)}
               >
                 {item.name}
@@ -89,7 +89,7 @@ const NavBar = () => {
                     <Link
                       href={item.href}
                       key={item.name}
-                      className={item.name !== currentPage ? "-mx-3 block rounded-lg px-3 py-2 text-center font-semibold leading-7 text-white " : "-mx-3 block rounded-lg px-3 py-2 text-center font-semibold leading-7 text-noire-gold  "}
+                      className={item.name !== currentPage ? "-mx-3 block rounded-lg px-3 py-2 text-center font-semibold leading-7 text-white " : "-mx-3 block rounded-lg px-3 py-2 text-center font-semibold leading-7 text-noire-gold-300  "}
                       onClick={(e)=> setCurrentPage(e.target.text)}
                     >
                       {item.name}

@@ -22,7 +22,7 @@ const Specialties = (props) => {
         
       />
       <div className="flex flex-col text-center mb-10 text-black">
-        <h3 className="font-bold text-noire-gold">{styleName}</h3>
+        <h3 className="font-bold text-noire-gold-300">{styleName}</h3>
         <p>{description}</p>
       </div>
     </div>
