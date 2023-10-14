@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>Thank you! I've received your message.</div>
+    <div><h1>Thank you! I have received your message.</h1></div>
   )
 }
 
