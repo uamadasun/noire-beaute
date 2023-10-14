@@ -3,7 +3,7 @@ import LoadMap from "../components/Map";
 
 const page = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center h-screen justify-center md:align-middle gap-4 px-8">
+    <div className="mt-20 md:mt-0 flex flex-col md:flex-row items-center h-screen justify-center md:align-middle gap-4 px-8">
       {/* LOCATION */}
       <section className=" w-full md:w-1/4 text-center p-2">
         <h1 className="text-3xl font-bold mb-4">Location</h1>

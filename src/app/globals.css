@@ -75,11 +75,11 @@ body {
   margin-top: 100px;
   height: 100%;
   min-height: 50%;
-  background: url('./assets/homeImage.svg');
+  /* background: url(./assets/banner.svg); */
   /* background-color: red; */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   /* border: 1px solid; */
-  background-size:cover;
+  /* background-size:cover; */
 }
 
 .about-me{

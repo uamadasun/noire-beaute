@@ -19,23 +19,28 @@ export default function Page() {
 
 
   return (
-    <div className="relative h-fit">
+    <div className="relative md:w-full md:h-full mt-24 bg-contain bg-no-repeat" style={{
+      backgroundImage: `url('${banner.src}')`, 
+      height:"100%"
+      
+    
+  }}>
 
       {/* HERO SECTION */}
-      <section className="dark:bg-gray-900 pt-24 hero-section">
-        <div className="py-8 mx-3 max-w-screen-xl text-left lg:py-16 lg:px-0 bg-banner bg-no-repeat bg-cover">
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+      <section className="dark:bg-gray-900 pt-5 md:pt-24">
+        <div className="  md:py-8 mx-3 max-w-screen-xl text-left lg:py-16 lg:px-0">
+          <h1 className="my-5 md:mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
             NATURAL HAIR ARTIST
           </h1>
-          <p className="mb-8 text-lg font-normal text-gray-500 lg:text-3xl sm:mx-0 xl:px-0 sm:px-0 dark:text-gray-400 w-2/3">
+          <p className="mb-5 text-lg font-normal text-gray-500 lg:text-3xl sm:mx-0 xl:px-0 sm:px-0 dark:text-gray-400 w-2/3">
             Holistic hair health and beauty. Specializing in natural haircare,
             protective styling, and enhancing natural texture.
           </p>
-          <div className="mx-auto my-0">
+          <div className="mx-auto -my-6">
             <a href="https://noirebeautebyj.as.me/schedule.php" target="_blank">
               <button
                 className=
-                    " bg-noire-gold-300 font-semibold px-8 py-3 mt-2 text-sm rounded-full w-1/3 md:hidden text-black "
+                    " bg-noire-gold-300 py-2 font-semibold px-8 md:py-3 mt-2 text-sm rounded-full w-1/3 md:hidden text-black "
               >
                 Book Now
               </button>
