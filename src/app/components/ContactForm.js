@@ -109,7 +109,7 @@ const ContactForm = () => {
         <input
           type="hidden"
           name="_next"
-          value="https://noire-beaute.vercel.app/success"
+          value="http://localhost:3000/success"
         />
 
         <div className="mx-auto my-4 flex justify-center">
