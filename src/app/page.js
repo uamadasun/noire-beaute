@@ -19,17 +19,19 @@ export default function Page() {
 
 
   return (
-    <div className="relative md:w-full md:h-full mt-24 bg-contain bg-no-repeat" style={{
+    <div className=" md:w-full h-max mt-24  " >
+
+      {/* HERO SECTION */}
+      <section className="dark:bg-gray-900 p-10 md:pt-24  bg-center  bg-cover bg-no-repeat" style={{
       backgroundImage: `url('${banner.src}')`, 
-      height:"100%"
       
     
   }}>
 
-      {/* HERO SECTION */}
-      <section className="dark:bg-gray-900 pt-5 md:pt-24">
+
+        
         <div className="  md:py-8 mx-3 max-w-screen-xl text-left lg:py-16 lg:px-0">
-          <h1 className="my-5 md:mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+          <h1 className="my-5 md:mb-4 text-2xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
             NATURAL HAIR ARTIST
           </h1>
           <p className="mb-5 text-lg font-normal text-gray-500 lg:text-3xl sm:mx-0 xl:px-0 sm:px-0 dark:text-gray-400 w-2/3">
