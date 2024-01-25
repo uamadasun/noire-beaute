@@ -11,7 +11,7 @@ import ContactForm from "../components/ContactForm";
 
 const page = () => {
   return (
-    <div className="mt-40 md:mt-24 w-full bg-black  flex flex-col md:flex-row  items-center justify-evenly md:align-middle gap-4 px-8">
+    <div className="mt-40 md:mt-24 w-full flex flex-col md:flex-row  items-center justify-evenly md:align-middle gap-4 px-8">
       {/* LEFT */}
       <div className="flex flex-col items-center gap-2 flex-1 w-fit">
         <div className="flex flex-col items-center gap-7">

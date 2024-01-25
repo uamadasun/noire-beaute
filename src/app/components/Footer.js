@@ -10,7 +10,7 @@ const Footer = () => {
              fixed
              inset-x-0
              bottom-0
-             p-4
+             p-0.5
              mt-10 footer bg-black"
       >
         Copyright &copy; 2023 Noire Beaute by J. Developed and Designed by <Link href="https://uchenna.io" target="_blank"><span className="hover:text-noire-gold-300 font-bold">uchenna.io</span>.</Link>
